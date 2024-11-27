@@ -1,0 +1,170 @@
+
+
+/* Styling for the image preview container */
+.imagePreviewContainer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.imagePreview {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Container styling */
+.signUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Form styling */
+.signUpBox {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.signUpBox h1 {
+    margin-bottom: 1rem;
+}
+
+/* Image preview container styling */
+.imagePreviewContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.profileImagePreview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.imagePlaceholder {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dashed #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.signUpBox input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submitBtn {
+    background-color: #0073b1; /* LinkedIn blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitBtn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.signUpFooter {
+    margin-top: 1rem;
+}
+
+.signinLink {
+    color: #0073b1; /* LinkedIn blue */
+    text-decoration: none;
+}
+
+.signinLink:hover {
+    text-decoration: underline;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 14px;
+}
+
+/* Container styling */
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Form styling */
+.loginBox {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.loginBox h1 {
+    margin-bottom: 1rem;
+}
+
+.loginBox input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submitBtn {
+    background-color: #0073b1; /* LinkedIn blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitBtn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.loginFooter {
+    margin-top: 1rem;
+}
+
+.signinLink {
+    color: #0073b1; /* LinkedIn blue */
+    text-decoration: none;
+}
+
+.signinLink:hover {
+    text-decoration: underline;
+}

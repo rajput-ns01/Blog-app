@@ -1,0 +1,20 @@
+.cat-Container{
+    height: 100%;
+    width: 100%;
+}
+
+.cat-form{
+    width: 40%;
+}
+
+.submit-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(39, 9, 208);
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
